@@ -33,8 +33,6 @@ class MapBoundary {
     }
 
     fun getBoundaries(): Pair<Vector2d, Vector2d> {
-        println(objectsSortedWithX)
-        println(objectsSortedWithY)
         return Pair(
             Vector2d(objectsSortedWithX.first().first.x, objectsSortedWithY.first().first.y),
             Vector2d(objectsSortedWithX.last().first.x, objectsSortedWithY.last().first.y))
