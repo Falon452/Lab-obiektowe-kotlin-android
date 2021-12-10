@@ -4,6 +4,7 @@ package com.example.lab_obiektowe_kotlin_android
 import agh.ics.oop.*
 import android.content.Context
 import android.graphics.*
+import android.os.Handler
 import android.util.AttributeSet
 import android.view.View
 import java.lang.Math.abs
@@ -131,7 +132,7 @@ class GrassFieldView @JvmOverloads constructor(
 
     fun moveAnimalAndRefresh(direction: MoveDirection) {
         moveAnimal(direction)
-        postInvalidate()
+        postInvalidate() // Render View again
     }
 
 
