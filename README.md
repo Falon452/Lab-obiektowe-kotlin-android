@@ -1,4 +1,4 @@
-# Lab-obiektowe-kotlin-android
+
 
 - This was created as a final result of object oriented programming labs
 
